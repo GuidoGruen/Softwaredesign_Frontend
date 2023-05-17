@@ -17,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="./Startseite.html">
                 <img class="logoimage" src="./images/logo-no-background.png"></img>
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +29,10 @@
                     <a class="nav-link active" aria-current="page" href="#">Startseite</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Szenarien verwalten</a>
+                    <a class="nav-link" href="./Szenarien.html">Szenarien verwalten</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Verbundene Geräte</a>
+                    <a class="nav-link" href="./Geräte.html">Verbundene Geräte</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Demomaterial verwalten</a>
@@ -43,6 +43,9 @@
           </nav>
     </header>
     <main>
+        <div class="headline">
+          <h1>Startseite</h1>
+        </div>
         <div class="dropdown" id="szenario">
             <button class="btn btn-secondary dropdown-toggle gap-1 p-2 rounded-3 mx-0 border-0 shadow w-220px" id="szenariobutton" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-theme="dark">
               Szenario 1
@@ -71,12 +74,12 @@
               </p>
             </div>
           </div>
-          <div>
-            <button class="btn btn-secondary bearbeiten" type="button" data-bs-theme="dark">
+          <div class="centered">
+            <button class="btn btn-secondary startseitebearbeiten" type="button" data-bs-theme="dark">
                 Szenario bearbeiten
               </button>
           </div>
-          <div>
+          <div class="centered">
             <button class="btn btn-secondary starten" type="button" data-bs-theme="dark">
                 Start
               </button>
