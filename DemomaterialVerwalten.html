@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Startseite Softwaredesign" />
+    <meta name="description" content="Demomaterial verwalten" />
     <meta name="author" content="Mattis Petroll, Guido Grün" />
     <meta name="copyright" content="Mattis Petroll, Guido Grün" />
-    <title>Szenarien verwalten</title>
+    <title>Demomaterial verwalten</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS-Dateien\main.css" />
@@ -29,13 +29,13 @@
                     <a class="nav-link" href="./Startseite.html">Startseite</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Szenarien verwalten</a>
+                    <a class="nav-link" href="./SzenarienVerwalten.html">Szenarien verwalten</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./Geräte.html">Verbundene Geräte</a>
+                    <a class="nav-link" href="./VerbundeneGeräte.html">Verbundene Geräte</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Demomaterial verwalten</a>
+                    <a class="nav-link active" aria-current="page" href="#">Demomaterial verwalten</a>
                   </li>
                 </ul>
               </div>
@@ -43,30 +43,39 @@
           </nav>
     </header>
     <main>
-        <div class="headline">
-            <h1>Szenarien verwalten</h1>
+      <div class="headline">
+        <h1>Art des Demomaterials</h1>
+      </div>
+        <div class="dropdown" id="szenario">
+            <button class="btn btn-secondary dropdown-toggle gap-1 p-2 rounded-3 mx-0 border-0 shadow w-220px" id="szenariobutton" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-theme="dark">
+              PDFs
+            </button>
+            <ul class="dropdown-menu" data-bs-theme="dark">
+              <li><a class="dropdown-item" href="#">PDF</a></li>
+              <li><a class="dropdown-item" href="#">.Video</a></li>
+              <li><a class="dropdown-item" href="#">Audio</a></li>
+            </ul>
           </div>
           <div class="textbox">
             <div class="overflow">
                 <div class="centered">
-                    <button class="btn btn-secondary szenarienliste">Szenario 1</button>
-                    <button class="btn btn-secondary szenarienliste">Szenario 2</button>
-                    <button class="btn btn-secondary szenarienliste">Szenario 3</button>
-                    <button class="btn btn-secondary szenarienliste">Szenario 4</button>
-                    <button class="btn btn-secondary szenarienliste">Szenario 5</button>
-                    <button class="btn btn-secondary szenarienliste">Szenario 6</button>
+                    <button class="btn btn-secondary szenarienliste">Material 1</button>
+                    <button class="btn btn-secondary szenarienliste">Material 2</button>
+                    <button class="btn btn-secondary szenarienliste">Material 3</button>
+                    <button class="btn btn-secondary szenarienliste">Material 4</button>
+                    <button class="btn btn-secondary szenarienliste">Material 5</button>
+                    <button class="btn btn-secondary szenarienliste">Material 6</button>
                 </div>
             </div>
           </div>
-          <div class="divider" ></div>
           <div class="centered">
             <a class="btn btn-secondary szenarienbearbeiten" href="#" data-bs-theme="dark">
-                Szenario bearbeiten
+                Material bearbeiten
             </a>
           </div>
           <div class="centered">
             <a class="btn btn-secondary szenarienbearbeiten" href="#" data-bs-theme="dark">
-                Szenario erstellen
+                Material hinzufügen
             </a>
           </div>
     </main>

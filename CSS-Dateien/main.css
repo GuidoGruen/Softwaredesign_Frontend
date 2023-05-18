@@ -39,6 +39,10 @@ body {
   background-color: #03b670 !important;
 }
 
+.space {
+  height: 66px
+}
+
 .dropdown-menu {
   width: 80%;
   text-align: center;
@@ -55,9 +59,35 @@ body {
   border: solid 3px #03b670;
   border-radius: 15px;
 }
-.textbox .overflow {
+.overflow {
   overflow: scroll;
   height: 270px;
+}
+
+.textbox2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 80%;
+  padding: 15px;
+  height: 100px;
+  border: solid 3px #03b670;
+  border-radius: 15px;
+}
+.textbox2 .overflow2 {
+  overflow: scroll;
+  height: 70px;
+}
+
+.textbox3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 80%;
+  padding: 15px;
+  height: 300px;
+  border: solid 3px #03b670;
+  border-radius: 15px;
 }
 
 .startseitebearbeiten {
