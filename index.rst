@@ -18,7 +18,3 @@ Das Projekt auf `GitHub <https://github.com/GuidoGruen/Softwaredesign_Frontend.g
 Inhalt
 --------
 
-.. toctree::
-
-   usage
-   api
