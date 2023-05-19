@@ -24,13 +24,13 @@ Nutzerhandbuch
 ==============
 
 Allgemeine Informationen
-------------------------
+---------------
 Unsere Anwendung ermöglicht das Erstellen, Bearbeiten und Abspielen von Szenarien, 
 die aus einer oder mehreren Phasen bestehen. Zu jeder Phase können beliebig viele 
 Geräte hinzugefügt werden, die wiederum verschiedene Demomaterialien besitzen können.
 
 Szenarien
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Das Herzstück der Anwendung bilden **Szenarien**. Diese können automatisch **Geräte** starten 
 und bei bedarf Szenarien oder Medien (**Demomaterial**) auf diesen laden. Außerdem ermöglichen sie eine 
 Steuerung dieser Medien.
@@ -61,7 +61,7 @@ Ablauf der Demonstration zu vereinfachen.
 
 
 Phasen
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ein Szenario hat immer mindestens eine **Phase**. Dies ist ausreichend für simple Szenarien mit wenigen Geräten 
 oder Demomaterial. Sind jedoch mehr Geräte vorhanden oder möchte man innerhalb einer Demonstration mehrere 
 Geräte oder Demomaterialien gleichzeitig starten, kann man dies über Phasen vereinfachen. Möchte man also 
@@ -73,25 +73,25 @@ benötigte Geräte werden außerdem automatisch abgeschaltet - in diesem Fall is
 VR-Brille aktiv, in Phase zwei wird sie abgeschaltet und stattdessen die beiden Bildschirme eingeschaltet.
 
 Geräte
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Geräte** bilden den wesentlichen Bestandteil von Szenarien. Sie müssen zunächst zur Anwendung hinzugefügt werden, 
 um später innerhalb eines Szenarios angesteuert werden zu können. Nach dem Hinzufügen können dann innerhalb 
 eines Szenarios die gewünschten Geräte ausgewählt werden.
 
 Unterstützte Gerätetypen:
-* VR-Brillen
-* Bildschirme
+- VR-Brillen
+- Bildschirme
 
 Demomaterial
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Optional kann innerhalb eines Szenarios auch **Demomaterial** zu bestimmten Geräten hinzugefügt werden. Dies wird 
 beim Start des Szenarios automatisch geladen und abgespielt und kann zudem - je nach Art des Demomaterials - 
 über die Anwendung gesteuert werden. Ein Gerät kann auch mehr als ein Demomaterial besitzen. Der Nutzer kann 
 dann während der Demonstration zwischen den hinzugefügten Demomaterialien wechseln.
 
 Untersützte Dateitypen:
-* .PDF
-* .mp4
+- .PDF
+- .mp4
 
 .. note::
 
