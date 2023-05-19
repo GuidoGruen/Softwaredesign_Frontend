@@ -151,7 +151,7 @@ berücksichtigt werden müssen, sollte dies ebenfalls in der Beschreibung angege
 
 Darunter werden die Phasen des Szenarios angezeigt. Bei einfachen Szenarien mit wenigen Geräten reicht eine Phase aus, 
 die bereits erstellt wurde. Zusätzliche Phasen können über :guilabel:`⊕ Phase` erstellt werden. Über den Knopf 
-:guilabel:`⊕ Phase` rechts neben dem Titel der Phase kann diese bearbeitet werden. Nun kann zunächst der Titel 
+:guilabel:`bearbeiten` rechts neben dem Titel der Phase kann diese bearbeitet werden. Nun kann zunächst der Titel 
 festgelegt werden.Unter "Elemente" können nun über den Knopf :guilabel:`⊕ Gerät` zunächst Geräte zur Phase 
 hinzugefügt werden. Wurde bereits ein Gerät hinzugefügt, kann für dieses Gerät passendes Demomaterial hinzugefügt 
 werden. Dafür den Knopf :guilabel:`⊕ Demomaterial` rechts neben dem zu bearbeitenden Gerät drücken und aus der Liste 
