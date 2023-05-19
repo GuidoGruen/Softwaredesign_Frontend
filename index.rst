@@ -78,9 +78,9 @@ Geräte
 um später innerhalb eines Szenarios angesteuert werden zu können. Nach dem Hinzufügen können dann innerhalb 
 eines Szenarios die gewünschten Geräte ausgewählt werden.
 
-Unterstützte Gerätetypen:\n
-* VR-Brillen\n
-* Bildschirme\n
+Unterstützte Gerätetypen:
+|     - VR-Brillen
+|     - Bildschirme
 
 Demomaterial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -89,9 +89,9 @@ beim Start des Szenarios automatisch geladen und abgespielt und kann zudem - je 
 über die Anwendung gesteuert werden. Ein Gerät kann auch mehr als ein Demomaterial besitzen. Der Nutzer kann 
 dann während der Demonstration zwischen den hinzugefügten Demomaterialien wechseln.
 
-Untersützte Dateitypen:\n
-* .PDF\n
-* .mp4\n
+Untersützte Dateitypen:
+|     - .PDF
+|     - .mp4
 
 .. note::
 
