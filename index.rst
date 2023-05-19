@@ -66,7 +66,7 @@ Ein Szenario hat immer mindestens eine **Phase**. Dies ist ausreichend für simp
 oder Demomaterial. Sind jedoch mehr Geräte vorhanden oder möchte man innerhalb einer Demonstration mehrere 
 Geräte oder Demomaterialien gleichzeitig starten, kann man dies über Phasen vereinfachen. Möchte man also 
 zuerst eine Szene auf einer VR-Brille zeigen und anschließend Informationen darüber auf zwei verschiedenen 
-Bildschirmen enzeigen, kann man dafür zwei Phasen erstellen: Die erste startet die VR-Brille und öffnet die 
+Bildschirmen anzeigen, kann man dafür zwei Phasen erstellen: Die erste startet die VR-Brille und öffnet die 
 entsprechende Szene, die zweite startet die beiden Bildschirme und öffnet darauf die gewünschten Dateien.
 Der Nutzer kann dabei entscheiden, wann er in die nächste Phase wechseln möchte. In einer Phase nicht 
 benötigte Geräte werden außerdem automatisch abgeschaltet - in diesem Fall ist also in Phase eins nur die 
@@ -79,8 +79,8 @@ um später innerhalb eines Szenarios angesteuert werden zu können. Nach dem Hin
 eines Szenarios die gewünschten Geräte ausgewählt werden.
 
 Unterstützte Gerätetypen:
-|     - VR-Brillen
-|     - Bildschirme
+*  VR-Brillen
+*  Bildschirme
 
 Demomaterial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,11 +90,74 @@ beim Start des Szenarios automatisch geladen und abgespielt und kann zudem - je 
 dann während der Demonstration zwischen den hinzugefügten Demomaterialien wechseln.
 
 Untersützte Dateitypen:
-|     - .PDF
-|     - .mp4
+*  .PDF
+*  .mp4
 
 .. note::
 
    Achtung: Nicht jedes Gerät unterstützt jeden Dateityp. Kompatible Geräte für jeden Dateityp werden in der 
    Anwendung dargestellt.
 
+
+Gerät hinzufügen
+---------------
+Um ein Gerät hinzuzufügen über das Burgermenü zur Seite ``Geräte verwalten`` navigieren.
+
+Gerät bearbeiten
+---------------
+
+Demomaterial hinzufügen
+---------------
+
+Demomaterial bearbeiten
+---------------
+
+Szenario erstellen
+---------------
+
+Szenario bearbeiten
+---------------
+
+Szenario abspielen
+---------------
+Bereits erstellte Szenarien lassen sich auf der Startseite abspielen. Dazu zunächst das gewünschte Szenario aus dem 
+Dropdownmenü oben auswählen (dort wird standardmäßig das zuletzt ausgewählte Szenario angezeigt). In dem Feld 
+darunter werden nun folgende Informationen zu dem Szenario angezeigt: 
+*  Beschreibund des Szenarios
+*  Phasen mit Geräten und Demomaterial
+:guilabel:`Start` drücken, um das Szenario zu starten.
+
+Szenario läuft
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Folgende Informationen werden nun auf dem Bildschirm angezeigt:
+*  Titel: Name des Szenarios, das gerade abgespielt wird
+*  Beschreibung: zuvor festgelegte Beschreibung des Szenarios
+*  Phase: momentan aktive Phase sowie genauere Informationen zu Geräten und Demomaterial
+In dem Feld unter "Phase 1" werden in der linken Spalte die gerade aktiven Geräte angezeigt. In der rechten Spalte wird, 
+falls vorhanden, das entsprechende aktive Demomaterial für jedes Gerät angezeigt. Falls ein Gerät nur ein Demomaterial 
+besitzt, wird dieses automatisch gestartet. Ist mehr als ein Demomaterial vorhanden, wird unter dem aktiven Demomaterial 
+ein Symbol angezeigt, das anzeigt, wie viele zusätzliche Demomaterialien vorhanden sind.
+Mit einem Klick auf das Geräte-Icon (linke Spalte) öffnet sich, falls vorhanden, ein Pop-Up-Menü zur Auswahl des 
+gerade aktiven Demomaterials.
+Je nach Demomaterial gibt es außerdem unterschiedliche Steuerungsmöglichkeiten. Diese öffnen sich mit einem Klick auf das 
+gerade aktive Demomaterial.
+
+Steuerungsmöglichkeiten von Demomaterial
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Folgende Steuerungsmöglichkeiten werden unterstützt:
+*  PDF: nächste/vorherige Seite
+*  Video: 10 Sekunden zurückspulen, pausieren/fortsetzen, 10 Sekunden vorspulen
+*  VR-Szene: neuladen
+
+Die entsprechenden Möglichkeiten werden auch mit einem Klick auf das Infosymbol in dem Steuerungsfeld angezeigt.
+
+Nächste Phase
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Auf den Pfeil rechts am Bildschirmrand klicken, um in die nächste Phase zu gelangen. Hier muss erneut der Wechsel in 
+die nächste Phase bestätigt werden, um versehentliche Wechsel zu vermeiden. Falls vorhanden ist auch ein Wechsel in die 
+vorherige Phase durch einen Klick auf den Pfeil links am Bildschirmrand möglich.
+
+Szenario beenden
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Zum Beenden des Szenarios den Knopf :guilabel:`Beenden` am unteren Bildschirmrand gedrückt halten. Im Szenario verwendete 
+Geräte werden ausgeschaltet und es öffnet sich die Startseite.
