@@ -34,9 +34,11 @@ Szenarien
 Das Herzstück der Anwendung bilden **Szenarien**. Diese können automatisch **Geräte** starten 
 und bei bedarf Szenarien oder Medien (**Demomaterial**) auf diesen laden. Außerdem ermöglichen sie eine 
 Steuerung dieser Medien.
+
 Szenarien werden passend zu einem bestimmten Zweck erstellt und sind immer dann nützlich, 
 wenn mehr als ein Gerät genutzt werden soll oder Medien auf einem Gerät gesteuert werden 
 sollen.
+
 Beispiel Demonstration VR-Brille: Es soll zur Demonstration eine Szene in einer VR-Brille 
 gezeigt werden. Damit aber auch Außenstehende davon profitieren können, sollen zusätzliche 
 Informationen auf einem nebenstehenden Bildschirm gezeigt werden. Bei einer manuellen 
@@ -46,6 +48,7 @@ die PDF-Datei mit Zusatzinformationen auf dem Bildschirm geladen und geöffnet w
 eigentliche Demonstration der Szene beginnen - doch was passiert, wenn ein Fehler auftritt und die 
 Szene neu geladen werden muss? Der zuständige Labormitarbeiter muss die Demonstration unterbrechen, 
 um die Szene manuell neu zu laden.
+
 Szenarien vereinfachen diesen gesamten Ablauf: Die beiden gewünschten Geräte, die VR-Brille und der 
 Bildschirm, werden zu einem Szenario hinzugefügt. Anschließend wird das gewünschte Demomaterial für 
 beide Geräte festgelegt - die Szene für die VR-Brille und die PDF-Datei für den Bildschirm. Anschließend 
@@ -69,7 +72,7 @@ zuerst eine Szene auf einer VR-Brille zeigen und anschließend Informationen dar
 Bildschirmen anzeigen, kann man dafür zwei Phasen erstellen: Die erste startet die VR-Brille und öffnet die 
 entsprechende Szene, die zweite startet die beiden Bildschirme und öffnet darauf die gewünschten Dateien.
 Der Nutzer kann dabei entscheiden, wann er in die nächste Phase wechseln möchte. In einer Phase nicht 
-benötigte Geräte werden außerdem automatisch abgeschaltet - in diesem Fall ist also in Phase eins nur die 
+benötigte Geräte werden außerdem automatisch abgeschaltet - in diesem Beispiel ist also in Phase eins nur die 
 VR-Brille aktiv, in Phase zwei wird sie abgeschaltet und stattdessen die beiden Bildschirme eingeschaltet.
 
 Geräte
@@ -92,7 +95,7 @@ dann während der Demonstration zwischen den hinzugefügten Demomaterialien wech
 
 Untersützte Dateitypen:
 
-* .PDF
+* .pdf
 * .mp4
 
 .. note::
@@ -103,28 +106,84 @@ Untersützte Dateitypen:
 
 Gerät hinzufügen
 ---------------
-Um ein Gerät hinzuzufügen über das Burgermenü zur Seite ``Geräte verwalten`` navigieren.
+Um ein Gerät hinzuzufügen über das Burgermenü zur Seite ``Geräte verwalten`` navigieren und anschließend 
+passende Gerätekategorie auswählen. Auf der nächsten Seite nun :guilabel:`neues Gerät hinzufügen` auswählen.
+Nun kann ein Titel sowie eine Beschreibung für das Gerät angegeben werden. Das Verbinden des Gerätes mit der 
+Anwendung kann beispielsweise über die IP-Adresse erfolgen, dies hängt allerdings von der Art des Geräts ab.
+Über den Knopf :guilabel:`Speichern` kann das Gerät gespeichert werden und es wird wieder die Seite 
+``Geräte verwalten`` geöffnet.
 
 Gerät bearbeiten
 ---------------
+Um ein bereits vorhandenes Gerät zu bearbeiten ähnlich vorgehen wie beim Hinzufügen: Zuerst zu ``Geräte verwalten``
+navigieren und dann die entsprechende Gerätekategorie auswählen. Nun werden bereits vorhandene Geräte von der 
+ausgewählten Kategorie angezeigt. Das zu bearbeitende Gerät auswählen und :guilabel:`ausgewähltes Gerät bearbeiten` 
+drücken. Hier können nun Titel und Beschreibung des Geräts geändert werden. Abschließend :guilabel:`Speichern` 
+drücken und zur Seite ``Geräte verwalten`` zurückkehren.
 
 Demomaterial hinzufügen
 ---------------
+Über das Burgermenü zur Seite ``Demomaterial verwalten`` navigieren und gewünschtes Dateiformat auswählen. 
+Oben werden nun die Gerätekategorien angezeigt, die das gewählte Dateiformat unterstützen und abspielen können.
+Um neues Demomaterial hinzuzufügen den Knopf :guilabel:`neues Demomaterial hinzufügen` am unteren Bildschirmrand 
+drücken. Nun Kann ein Name und eine Beschreibung für das Material hinzugefügt werden. Über das Uploadfeld 
+:guilabel:`Datei hochladen` kann das Demomaterial hochgeladen und schließlich über den Knopf 
+:guilabel:`Speichern` gespeichert werden.
+
 
 Demomaterial bearbeiten
 ---------------
+Zunächst ebenfalls zur Seite ``Demomaterial verwalten`` navigieren und das gewünschte Dateiformat auswählen. 
+Aus der Liste in der Mitte des Bildschirms das zu bearbeitende Demomaterial auswählen und unten auf 
+:guilabel:`ausgewähltes Demomaterial bearbeiten` klicken. Nun können Name und Beschreibung der Datei 
+geändert sowie eine neue Datei hochgeladen werden, die die ursprüngliche Datei ersetzt. 
+Abschließend :guilabel:`Speichern` drücken und zur Seite ``Demomaterial verwalten`` zurückkehren.
 
 Szenario erstellen
 ---------------
+.. note::
+
+   Achtung: Um ein neues Szenario zu erstellen müssen zu verwendende Geräte sowie Demomaterial bereits angelegt sein.
+
+Zur Seite ``Szenarien verwalten`` navigieren und :guilabel:`neues Szenario erstellen` auswählen. Nun müssen zunächst 
+ein Titel sowie eine Beschreibung für das Szenario eingegeben werden. Falls beim Abspielen des Szenarios Besonderheiten 
+berücksichtigt werden müssen, sollte dies ebenfalls in der Beschreibung angegeben werden. 
+
+Darunter werden die Phasen des Szenarios angezeigt. Bei einfachen Szenarien mit wenigen Geräten reicht eine Phase aus, 
+die bereits erstellt wurde. Zusätzliche Phasen können über :guilabel:`⊕ Phase` erstellt werden. Über das Stift-Icon 
+rechts neben dem Titel der Phase kann diese bearbeitet werden. Nun kann zunächst der Titel festgelegt werden.
+Unter "Elemente" können nun über den Knopf :guilabel:`⊕ Gerät` zunächst Geräte zur Phase hinzugefügt werden. Wurde 
+bereits ein Gerät hinzugefügt, kann für dieses Gerät passendes Demomaterial hinzugefügt werden. Dafür den Knopf 
+:guilabel:`⊕ Demomaterial` rechts neben dem zu bearbeitenden Gerät drücken und aus der Liste das gewünschte 
+Demomaterial auswählen. Demomaterial kann über das kleine :guilabel:`ⓧ` Symbol neben dem Namen des Materials wieder 
+aus dem Szenario entfernt werden. Ein Gerät kann über das große :guilabel:`ⓧ` Symbol rechts in der Zeile entfernt 
+werden. Nach dem Bearbeiten einer Phase :guilabel:`Speichern` drücken um zurück zur Auswahl über die verschiedenen 
+Phasen zu kommen. Ist das Szenario fertig, :guilabel:`Speichern` drücken und zur Seite ``Szenarien verwalten``
+zurückkehren.
 
 Szenario bearbeiten
 ---------------
+Um ein bereits vorhandenes Szenario zu bearbeiten auf der Seite ``Szenarien verwalten`` das zu bearbeitende Szenario 
+auswählen und auf :guilabel:`ausgewähltes Szenario bearbeiten` klicken. Hier können nun zunächst Titel und 
+Beschreibung des Szenarios geändert werden. Wie beim Erstellen eines Szenarios können darunter Phasen hinzugefügt oder 
+bereits vorhandene Phasen bearbeitet werden. 
+
+Beim Bearbeiten einer Phase können über den Knopf :guilabel:`⊕ Gerät` neue Geräte hinzugefügt oder über den Knopf 
+:guilabel:`ⓧ` ganz rechts in einer Zeile das entsprechende Gerät gelöscht werden. Ebenso kann über 
+den Knopf :guilabel:`⊕ Demomaterial` rechts neben dem zu bearbeitenden Gerät ein neues Demomaterial hinzugefügt oder 
+ein bereits vorhandenes über das kleine :guilabel:`ⓧ` Symbol neben dem Namen des Materials gelöscht werden.
+Die ganze Phase kann über den Knopf :guilabel:`Löschen` am unteren Bildschirmrand gelöscht oder über 
+:guilabel:`Speichern` gespeichert werden.
+
+Beides führt zurück zur Seite ``Szenario bearbeiten``, wo das Szenario am unteren Bildschirmrand entweder gelöscht 
+oder gespeichert werden kann. Der Knopf :guilabel:`Abbrechen` führt zurück zu Seite ``Szenarien verwalten``, ohne 
+die vorgenommenen Änderungen zu speichern.
 
 Szenario abspielen
 ---------------
-Bereits erstellte Szenarien lassen sich auf der Startseite abspielen. Dazu zunächst das gewünschte Szenario aus dem 
-Dropdownmenü oben auswählen (dort wird standardmäßig das zuletzt ausgewählte Szenario angezeigt). In dem Feld 
-darunter werden nun folgende Informationen zu dem Szenario angezeigt: 
+Bereits erstellte Szenarien lassen über die Seite ``Szenarien verwalten`` starten. Dazu zunächst das gewünschte Szenario
+ auswählen und :guilabel:`ausgewähltes Szenario starten` drücken. Nun werden einige Informationen zu dem gewählten 
+ Szenario angezeigt:
 
 * Beschreibung des Szenarios
 * Phasen mit Geräten und Demomaterial
@@ -137,6 +196,7 @@ Folgende Informationen werden nun auf dem Bildschirm angezeigt:
 * Titel: Name des Szenarios, das gerade abgespielt wird
 * Beschreibung: zuvor festgelegte Beschreibung des Szenarios
 * Phase: momentan aktive Phase sowie genauere Informationen zu Geräten und Demomaterial
+
 In dem Feld unter "Phase 1" werden in der linken Spalte die gerade aktiven Geräte angezeigt. In der rechten Spalte wird, 
 falls vorhanden, das entsprechende aktive Demomaterial für jedes Gerät angezeigt. Falls ein Gerät nur ein Demomaterial 
 besitzt, wird dieses automatisch gestartet. Ist mehr als ein Demomaterial vorhanden, wird unter dem aktiven Demomaterial 
