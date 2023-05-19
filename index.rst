@@ -150,16 +150,16 @@ ein Titel sowie eine Beschreibung für das Szenario eingegeben werden. Falls bei
 berücksichtigt werden müssen, sollte dies ebenfalls in der Beschreibung angegeben werden. 
 
 Darunter werden die Phasen des Szenarios angezeigt. Bei einfachen Szenarien mit wenigen Geräten reicht eine Phase aus, 
-die bereits erstellt wurde. Zusätzliche Phasen können über :guilabel:`⊕ Phase` erstellt werden. Über das Stift-Icon 
-rechts neben dem Titel der Phase kann diese bearbeitet werden. Nun kann zunächst der Titel festgelegt werden.
-Unter "Elemente" können nun über den Knopf :guilabel:`⊕ Gerät` zunächst Geräte zur Phase hinzugefügt werden. Wurde 
-bereits ein Gerät hinzugefügt, kann für dieses Gerät passendes Demomaterial hinzugefügt werden. Dafür den Knopf 
-:guilabel:`⊕ Demomaterial` rechts neben dem zu bearbeitenden Gerät drücken und aus der Liste das gewünschte 
-Demomaterial auswählen. Demomaterial kann über das kleine :guilabel:`ⓧ` Symbol neben dem Namen des Materials wieder 
-aus dem Szenario entfernt werden. Ein Gerät kann über das große :guilabel:`ⓧ` Symbol rechts in der Zeile entfernt 
-werden. Nach dem Bearbeiten einer Phase :guilabel:`Speichern` drücken um zurück zur Auswahl über die verschiedenen 
-Phasen zu kommen. Ist das Szenario fertig, :guilabel:`Speichern` drücken und zur Seite ``Szenarien verwalten``
-zurückkehren.
+die bereits erstellt wurde. Zusätzliche Phasen können über :guilabel:`⊕ Phase` erstellt werden. Über den Knopf 
+:guilabel:`⊕ Phase` rechts neben dem Titel der Phase kann diese bearbeitet werden. Nun kann zunächst der Titel 
+festgelegt werden.Unter "Elemente" können nun über den Knopf :guilabel:`⊕ Gerät` zunächst Geräte zur Phase 
+hinzugefügt werden. Wurde bereits ein Gerät hinzugefügt, kann für dieses Gerät passendes Demomaterial hinzugefügt 
+werden. Dafür den Knopf :guilabel:`⊕ Demomaterial` rechts neben dem zu bearbeitenden Gerät drücken und aus der Liste 
+das gewünschte Demomaterial auswählen. Demomaterial kann über das kleine :guilabel:`ⓧ` Symbol neben dem Namen des 
+Materials wieder aus dem Szenario entfernt werden. Ein Gerät kann über das große :guilabel:`ⓧ` Symbol rechts in der 
+Zeile entfernt werden. Nach dem Bearbeiten einer Phase :guilabel:`Speichern` drücken um zurück zur Auswahl über die 
+verschiedenen Phasen zu kommen. Ist das Szenario fertig, :guilabel:`Speichern` drücken und zur Seite 
+``Szenarien verwalten`` zurückkehren.
 
 Szenario bearbeiten
 ---------------
