@@ -79,8 +79,9 @@ um später innerhalb eines Szenarios angesteuert werden zu können. Nach dem Hin
 eines Szenarios die gewünschten Geräte ausgewählt werden.
 
 Unterstützte Gerätetypen:
-*  VR-Brillen
-*  Bildschirme
+
+* VR-Brillen
+* Bildschirme
 
 Demomaterial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,8 +91,9 @@ beim Start des Szenarios automatisch geladen und abgespielt und kann zudem - je 
 dann während der Demonstration zwischen den hinzugefügten Demomaterialien wechseln.
 
 Untersützte Dateitypen:
-*  .PDF
-*  .mp4
+
+* .PDF
+* .mp4
 
 .. note::
 
@@ -123,16 +125,18 @@ Szenario abspielen
 Bereits erstellte Szenarien lassen sich auf der Startseite abspielen. Dazu zunächst das gewünschte Szenario aus dem 
 Dropdownmenü oben auswählen (dort wird standardmäßig das zuletzt ausgewählte Szenario angezeigt). In dem Feld 
 darunter werden nun folgende Informationen zu dem Szenario angezeigt: 
-*  Beschreibund des Szenarios
-*  Phasen mit Geräten und Demomaterial
+
+* Beschreibung des Szenarios
+* Phasen mit Geräten und Demomaterial
 :guilabel:`Start` drücken, um das Szenario zu starten.
 
 Szenario läuft
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Folgende Informationen werden nun auf dem Bildschirm angezeigt:
-*  Titel: Name des Szenarios, das gerade abgespielt wird
-*  Beschreibung: zuvor festgelegte Beschreibung des Szenarios
-*  Phase: momentan aktive Phase sowie genauere Informationen zu Geräten und Demomaterial
+
+* Titel: Name des Szenarios, das gerade abgespielt wird
+* Beschreibung: zuvor festgelegte Beschreibung des Szenarios
+* Phase: momentan aktive Phase sowie genauere Informationen zu Geräten und Demomaterial
 In dem Feld unter "Phase 1" werden in der linken Spalte die gerade aktiven Geräte angezeigt. In der rechten Spalte wird, 
 falls vorhanden, das entsprechende aktive Demomaterial für jedes Gerät angezeigt. Falls ein Gerät nur ein Demomaterial 
 besitzt, wird dieses automatisch gestartet. Ist mehr als ein Demomaterial vorhanden, wird unter dem aktiven Demomaterial 
@@ -145,9 +149,10 @@ gerade aktive Demomaterial.
 Steuerungsmöglichkeiten von Demomaterial
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Folgende Steuerungsmöglichkeiten werden unterstützt:
-*  PDF: nächste/vorherige Seite
-*  Video: 10 Sekunden zurückspulen, pausieren/fortsetzen, 10 Sekunden vorspulen
-*  VR-Szene: neuladen
+
+* PDF: nächste/vorherige Seite
+* Video: 10 Sekunden zurückspulen, pausieren/fortsetzen, 10 Sekunden vorspulen
+* VR-Szene: neuladen
 
 Die entsprechenden Möglichkeiten werden auch mit einem Klick auf das Infosymbol in dem Steuerungsfeld angezeigt.
 
