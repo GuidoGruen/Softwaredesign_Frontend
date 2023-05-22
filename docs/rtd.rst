@@ -106,6 +106,29 @@ ergibt:
 * Drittes Element der Liste
 * Viertes Element der Liste
 
+Literalblöcke
+**************
+Literalblöcke werden durch zwei Doppelpunkte im vorherigen Absatz eingeleitet und müssen 
+eingerückt und durch jeweils eine Leerzeile von umgebenden Absätzen getrennt sein.
+
+Hyperlinks
+**************
+Hyperlinks werden mit einem Backquote um den Linktext und Winkelklamern um die URL 
+eingeleitet, zum Beispiel::
+
+    `Hochschule Furtwangen <https://www.hs-furtwangen.de/>`_
+
+ergibt: `Hochschule Furtwangen <https://www.hs-furtwangen.de/>`_.
+
+Guilabel
+**************
+Mit Guilabel können Buttons, Menüs, etc. gekennzeichnet werden. Ein Guilabel wird mit 
+:guilabel: eingeleitet und der Text wird von Backquotes umschlossen, zum Beispiel::
+
+    :guilabel:`Button`
+
+ergibt: :guilabel:`Button`.
+
 Überschriften in Sphinx
 ================================
 Überschriften werden erstellt, indem die Überschrift mit einem Satzzeichen unterstrichen 
@@ -123,5 +146,21 @@ Die Art der Überschriften beschreibt auch die Struktur innerhalb eines Kapitels
 
 Dokumentation aktualisieren
 ================================
+Wurden Änderungen an der Dokumentation vorgenommen, müssen diese zunächst in das 
+GitHub-Repository gepusht werden. Anschließend muss die Dokumentation auf Read the Docs 
+neu gebaut werden. Dafür ist ein Account auf Read the Docs notwendig (am besten über 
+GitHub anmelden, da die beiden Accounts verknüpft sein müssen). Nach dem Login 
+kann über :guilabel:`Projekt importieren` das GitHub-Repository ausgewählt werden. 
+Anschließend kann das Projekt über :guilabel:`Meine Projekte`ausgewählt und über 
+:guilabel:`Erstellungsprozesse (Builds)` und dann :guilabel:`Version erstellen` 
+die Dokumentation neu gebaut werden. Die Dokumentation kann anschließend über 
+:guilabel:`Dokumentation ansehen` oder über diesen 
+`Link <https://softwaredesign-frontend.readthedocs.io/de/latest/index.html>`_ 
+aufgerufen werden. Das Aktualisieren der Webseite kann einige Minuten dauern.
+Ganz unten auf der Webseite steht unter "Revision" die ID (SHA) des letzten Commits, 
+die mit der ID des letzten Commits im GitHub-Repository verglichen werden kann. 
+Ist diese ID nicht aktuell, wurde die Dokumentation noch nicht aktualisiert.
+
+
 
 
