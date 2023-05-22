@@ -28,4 +28,4 @@ Inhalt
    user_manual
    frontend
    backend
-   read_the_docs
+   rtd

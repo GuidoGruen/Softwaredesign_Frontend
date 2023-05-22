@@ -215,7 +215,7 @@ Je nach Demomaterial gibt es außerdem unterschiedliche Steuerungsmöglichkeiten
 gerade aktive Demomaterial.
 
 Steuerungsmöglichkeiten von Demomaterial
---------------------------------
+-----------------------------------------
 Folgende Steuerungsmöglichkeiten werden unterstützt:
 
 * PDF: nächste/vorherige Seite
@@ -236,7 +236,7 @@ Zum Beenden des Szenarios den Knopf :guilabel:`Beenden` am unteren Bildschirmran
 Geräte werden ausgeschaltet und es öffnet sich die Startseite.
 
 Szenario löschen
-================================
+********************************
 Ähnlich vorgehen wie bei *Szenario bearbeiten*: Zu ``Szenarien verwalten`` navigieren, dann das entsprechende 
 Szenario auswählen und schließlich :guilabel:`ausgewähltes Szenario bearbeiten` drücken. Auf der folgenden Seite befindet 
 sich unten am Bildschirmrand der Knopf :guilabel:`Löschen`, der das Szenario entfernen wird.
