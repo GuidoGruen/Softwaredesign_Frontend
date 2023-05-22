@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Startseite" />
+    <meta name="author" content="Mattis Petroll, Guido Grün" />
+    <meta name="copyright" content="Mattis Petroll, Guido Grün" />
+    <title>Startseite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS-Dateien/main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../JavaScript-Dateien/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./Index.html">
+                <img class="logo_image" src="../images/Logo.png"></img>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Startseite</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./SzenarienVerwalten.html">Szenarien verwalten</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./GeräteVerwaltenStart.html">Geräte verwalten</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./DemomaterialVerwaltenStart.html">Demomaterial verwalten</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <div class="headline">
+        <h1>Startseite</h1>
+      </div>
+      <div class="dropdown szenario">
+        <button class="btn btn-secondary dropdown-toggle gap-1 p-2 rounded-3 mx-0 border-0 shadow w-220px szenario_button" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-theme="dark">
+          Szenario 1
+        </button>
+        <ul class="dropdown-menu" data-bs-theme="dark">
+          <li><a class="dropdown-item" href="#">Szenario 1</a></li>
+          <li><a class="dropdown-item" href="#">Szenario 2</a></li>
+          <li><a class="dropdown-item" href="#">Szenario 3</a></li>
+        </ul>
+      </div>
+      <div class="textbox_big">
+        <div class="overflow_big">
+          <p>
+            HEDONIST ROOTS
+            Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
+            As Cicero would put it, “Um, not so fast.”
+            The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.
+            Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.
+            In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections 1.10.32–33 of Cicero's work, with the most notable passage excerpted below:
+            “Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.”
+            A 1914 English translation by Harris Rackham reads:
+            “Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure.”
+            McClintock's eye for detail certainly helped narrow the whereabouts of lorem ipsum's origin, however, the “how and when” still remain something of a mystery, with competing theories and timelines.
+            AD
+            Fuzzy Beginnings
+          </p>
+        </div>
+      </div>
+      <div onclick="window.location.href='Szenarien.html';" class="centered">
+        <button class="btn btn-secondary index_edit_button" type="button" data-bs-theme="dark">
+            Szenario bearbeiten
+        </button>
+      </div>
+      <div class="space">
+        
+      </div>
+      <div class="centered">
+        <button onclick="window.location.href='SzenarioLäuft.html';" class="btn btn-secondary start_end_button" type="button" data-bs-theme="dark">
+            Start
+        </button>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
