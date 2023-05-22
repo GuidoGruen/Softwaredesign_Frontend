@@ -62,14 +62,14 @@ Vor Listen muss immer eine Leerzeile stehen. Nicht nummerierte Listen werden mit
 eingeleitet. Nummerierte Listen können mit einer Zahl + . oder mit #. eingeleitet werden.
 
 ``
-* Erstes Element der Liste
-* Zweites Element der Liste
+    * Erstes Element der Liste
+    * Zweites Element der Liste
 
-1. Erstes Element der Liste
-2. Zweites Element der Liste
+    1. Erstes Element der Liste
+    2. Zweites Element der Liste
 
-#. Erstes Element der Liste
-#. Zweites Element der Liste
+    #. Erstes Element der Liste
+    #. Zweites Element der Liste
 ``
 ergibt:
 
@@ -86,14 +86,14 @@ Verschachtelte Listen werden weiter eingerückt, müssen aber immer durch eine L
 der übergeordneten Liste getrennt werden.
 
 ``
-* Erstes Element der Liste
-* Zweites Element der Liste
+    * Erstes Element der Liste
+    * Zweites Element der Liste
 
-    * Erstes Element der verschachtelten Liste
-    * Zweites Element der verschachtelten Liste
+        * Erstes Element der verschachtelten Liste
+        * Zweites Element der verschachtelten Liste
 
-* Drittes Element der Liste
-* Viertes Element der Liste
+    * Drittes Element der Liste
+    * Viertes Element der Liste
 ``
 ergibt:
 
