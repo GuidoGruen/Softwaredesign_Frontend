@@ -58,7 +58,7 @@ Inline Markup
 
 Listen
 **************
-Vor Listen muss immer eine Leerzeile stehen. Nicht nummerierte Listen werden mit einem Sternchen 
+Vor und nach Listen muss immer eine Leerzeile stehen. Nicht nummerierte Listen werden mit einem Sternchen 
 eingeleitet. Nummerierte Listen können mit einer Zahl + . oder mit #. eingeleitet werden.::
 
 
@@ -151,7 +151,7 @@ GitHub-Repository gepusht werden. Anschließend muss die Dokumentation auf Read 
 neu gebaut werden. Dafür ist ein Account auf Read the Docs notwendig (am besten über 
 GitHub anmelden, da die beiden Accounts verknüpft sein müssen). Nach dem Login 
 kann über :guilabel:`Projekt importieren` das GitHub-Repository ausgewählt werden. 
-Anschließend kann das Projekt über :guilabel:`Meine Projekte`ausgewählt und über 
+Anschließend kann das Projekt über :guilabel:`Meine Projekte` ausgewählt und über 
 :guilabel:`Erstellungsprozesse (Builds)` und dann :guilabel:`Version erstellen` 
 die Dokumentation neu gebaut werden (dauert ca. 30 Sekunden). Die Dokumentation kann anschließend über 
 :guilabel:`Dokumentation ansehen` oder über diesen 
