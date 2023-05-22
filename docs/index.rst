@@ -18,3 +18,11 @@ Das Projekt auf `GitHub <https://github.com/GuidoGruen/Softwaredesign_Frontend.g
 .. note::
 
    Dieses Projekt befindet sich noch in Entwicklung.
+
+
+.. toctree::
+
+   user_manual
+   frontend
+   backend
+   read_the_docs
