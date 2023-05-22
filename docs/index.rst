@@ -1,5 +1,6 @@
+##########################
 Demo Launcher
-==============
+##########################
 
 Mit unserer Anwendung wollen wir Mitarbeitern des Instituts für 
 Intelligente Interaktive Ubiquitäre Systeme die Planung und Inszenierung 
@@ -20,6 +21,8 @@ Das Projekt auf `GitHub <https://github.com/GuidoGruen/Softwaredesign_Frontend.g
    Dieses Projekt befindet sich noch in Entwicklung.
 
 
+Inhalt
+==============
 .. toctree::
 
    user_manual
