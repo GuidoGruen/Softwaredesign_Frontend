@@ -3,6 +3,10 @@ body {
   color: white !important;
 }
 
+.container-fluid {
+  background-color: hsl(210, 10%, 25%)  !important;
+}
+
 .nav-link {
   color: white !important;
   width: 85%;
@@ -24,6 +28,17 @@ body {
 .logoimage {
   width: 40px;
   height: 40px;
+}
+
+.geräteimg {
+  width: 70px;
+  height: 70px;
+}
+
+.geräteschrift {
+  padding: 3%;
+  padding-left: 10%;
+  font-size: 30px;
 }
 
 #szenario {
@@ -75,6 +90,7 @@ body {
   border-radius: 15px;
 }
 .textbox2 .overflow2 {
+  display: flex;
   overflow: scroll;
   height: 70px;
 }
@@ -85,9 +101,18 @@ body {
   margin-bottom: 5%;
   width: 80%;
   padding: 15px;
-  height: 300px;
+  height: 70px;
   border: solid 3px #03b670;
   border-radius: 15px;
+}
+.textbox3 .overflow3 {
+  display: flex;
+  overflow: scroll;
+  height: 40px;
+}
+
+.Beschreibung{
+  height: 260px;
 }
 
 .startseitebearbeiten {
@@ -110,7 +135,7 @@ body {
   background-color: #03b670 !important;
 }
 
-.szenarienbearbeiten {
+.buttonmittel {
   width: 80%;
   height: 50px;
   margin: 6px;
@@ -121,6 +146,24 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.buttonklein {
+  width: 110px;
+  height: 50px;
+  margin: 6px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #03b670 !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.speichern {
+  display: flex;
+  padding: 5%;
 }
 
 .headline {
