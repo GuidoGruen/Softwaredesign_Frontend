@@ -88,12 +88,12 @@ Untersützte Dateitypen:
 Nutzung der Anwendung
 ##########################
 
-**************************
+
 Geräte
-**************************
+================================
 
 Gerät hinzufügen
-================================
+********************************
 Um ein Gerät hinzuzufügen über das Burgermenü zur Seite ``Geräte verwalten`` navigieren und anschließend 
 passende Gerätekategorie auswählen. Auf der nächsten Seite nun :guilabel:`neues Gerät hinzufügen` auswählen.
 Nun kann ein Titel sowie eine Beschreibung für das Gerät angegeben werden. Das Verbinden des Gerätes mit der 
@@ -102,7 +102,7 @@ Anwendung kann beispielsweise über die IP-Adresse erfolgen, dies hängt allerdi
 ``Geräte verwalten`` geöffnet.
 
 Gerät bearbeiten
-================================
+********************************
 Um ein bereits vorhandenes Gerät zu bearbeiten ähnlich vorgehen wie beim Hinzufügen: Zuerst zu ``Geräte verwalten``
 navigieren und dann die entsprechende Gerätekategorie auswählen. Nun werden bereits vorhandene Geräte von der 
 ausgewählten Kategorie angezeigt. Das zu bearbeitende Gerät auswählen und :guilabel:`ausgewähltes Gerät bearbeiten` 
@@ -110,18 +110,18 @@ drücken. Hier können nun Titel und Beschreibung des Geräts geändert werden. 
 drücken und zur Seite ``Geräte verwalten`` zurückkehren.
 
 Gerät löschen
-================================
+********************************
 Ähnlich vorgehen wie bei *Gerät bearbeiten*: Zu ``Geräte verwalten`` navigieren, dann die entsprechende 
 Gerätekategorie und schließlich das zu löschende Gerät auswählen. Anschließend :guilabel:`ausgewähltes Gerät bearbeiten` 
 drücken. Auf der folgenden Seite befindet sich unten am Bildschirmrand der Knopf :guilabel:`Löschen`, der 
 das Gerät entfernen wird.
 
-**************************
+
 Demomaterial
-**************************
+================================
 
 Demomaterial hinzufügen
-================================
+********************************
 Über das Burgermenü zur Seite ``Demomaterial verwalten`` navigieren und gewünschtes Dateiformat auswählen. 
 Oben werden nun die Gerätekategorien angezeigt, die das gewählte Dateiformat unterstützen und abspielen können.
 Um neues Demomaterial hinzuzufügen den Knopf :guilabel:`neues Demomaterial hinzufügen` am unteren Bildschirmrand 
@@ -130,7 +130,7 @@ drücken. Nun Kann ein Name und eine Beschreibung für das Material hinzugefügt
 :guilabel:`Speichern` gespeichert werden.
 
 Demomaterial bearbeiten
-================================
+********************************
 Zunächst ebenfalls zur Seite ``Demomaterial verwalten`` navigieren und das gewünschte Dateiformat auswählen. 
 Aus der Liste in der Mitte des Bildschirms das zu bearbeitende Demomaterial auswählen und unten auf 
 :guilabel:`ausgewähltes Demomaterial bearbeiten` klicken. Nun können Name und Beschreibung der Datei 
@@ -138,18 +138,17 @@ geändert sowie eine neue Datei hochgeladen werden, die die ursprüngliche Datei
 Abschließend :guilabel:`Speichern` drücken und zur Seite ``Demomaterial verwalten`` zurückkehren.
 
 Demomaterial löschen
-================================
+********************************
 Ähnlich vorgehen wie bei *Demomaterial bearbeiten*: Zu ``Demomaterial verwalten`` navigieren, dann das entsprechende 
 Dateiformat und schließlich das zu löschende Demomaterial auswählen. Anschließend 
 :guilabel:`ausgewähltes Demomaterial bearbeiten` drücken. Auf der folgenden Seite befindet sich unten am 
 Bildschirmrand der Knopf :guilabel:`Löschen`, der das Demomaterial entfernen wird.
 
-**************************
 Szenarien
-**************************
+================================
 
 Szenario erstellen
-================================
+********************************
 .. note::
 
    Achtung: Um ein neues Szenario zu erstellen müssen zu verwendende Geräte sowie Demomaterial bereits angelegt sein.
@@ -171,7 +170,7 @@ verschiedenen Phasen zu kommen. Ist das Szenario fertig, :guilabel:`Speichern` d
 ``Szenarien verwalten`` zurückkehren.
 
 Szenario bearbeiten
-================================
+********************************
 Um ein bereits vorhandenes Szenario zu bearbeiten auf der Seite ``Szenarien verwalten`` das zu bearbeitende Szenario 
 auswählen und auf :guilabel:`ausgewähltes Szenario bearbeiten` klicken. Hier können nun zunächst Titel und 
 Beschreibung des Szenarios geändert werden. Wie beim Erstellen eines Szenarios können darunter Phasen hinzugefügt oder 
@@ -189,10 +188,10 @@ oder gespeichert werden kann. Der Knopf :guilabel:`Abbrechen` führt zurück zur
 die vorgenommenen Änderungen zu speichern.
 
 Szenario abspielen
-================================
-Bereits erstellte Szenarien lassen über die Seite ``Szenarien verwalten`` starten. Dazu zunächst das gewünschte Szenario
- auswählen und :guilabel:`ausgewähltes Szenario starten` drücken. Nun werden einige Informationen zu dem gewählten 
- Szenario angezeigt:
+********************************
+Bereits erstellte Szenarien lassen über die Seite ``Szenarien verwalten`` starten. Dazu zunächst das gewünschte Szenario 
+auswählen und :guilabel:`ausgewähltes Szenario starten` drücken. Nun werden einige Informationen zu dem gewählten 
+Szenario angezeigt:
 
 * Beschreibung des Szenarios
 * Phasen mit Geräten und Demomaterial
