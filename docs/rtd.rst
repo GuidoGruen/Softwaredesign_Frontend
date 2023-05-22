@@ -59,9 +59,9 @@ Inline Markup
 Listen
 **************
 Vor Listen muss immer eine Leerzeile stehen. Nicht nummerierte Listen werden mit einem Sternchen 
-eingeleitet. Nummerierte Listen können mit einer Zahl + . oder mit #. eingeleitet werden.
+eingeleitet. Nummerierte Listen können mit einer Zahl + . oder mit #. eingeleitet werden.::
 
-``
+
     * Erstes Element der Liste
     * Zweites Element der Liste
 
@@ -70,7 +70,7 @@ eingeleitet. Nummerierte Listen können mit einer Zahl + . oder mit #. eingeleit
 
     #. Erstes Element der Liste
     #. Zweites Element der Liste
-``
+
 ergibt:
 
 * Erstes Element der Liste
@@ -83,9 +83,9 @@ ergibt:
 #. Zweites Element der Liste
 
 Verschachtelte Listen werden weiter eingerückt, müssen aber immer durch eine Leerzeile von 
-der übergeordneten Liste getrennt werden.
+der übergeordneten Liste getrennt werden.::
 
-``
+
     * Erstes Element der Liste
     * Zweites Element der Liste
 
@@ -94,7 +94,7 @@ der übergeordneten Liste getrennt werden.
 
     * Drittes Element der Liste
     * Viertes Element der Liste
-``
+
 ergibt:
 
 * Erstes Element der Liste
