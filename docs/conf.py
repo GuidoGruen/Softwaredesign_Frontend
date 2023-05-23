@@ -1,16 +1,8 @@
 # -- Project information
 
 project = 'Demo Launcher'
-author = [
-    'Nico Berndt',
-    'Vadim Borejko',
-    'Ethan Fuchs',
-    'Guido Grün', 
-    'Lea Hergert',
-    'Lisa Kutowinski',
-    'Mattis Petroll',
-    'Marit Zenker'
-    ]
+author = 'Nico Berndt', 'Vadim Borejko', 'Ethan Fuchs', 'Guido Grün', 
+'Lea Hergert', 'Lisa Kutowinski', 'Mattis Petroll', 'Marit Zenker'
 
 # -- General configuration
 
