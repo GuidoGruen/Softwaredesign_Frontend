@@ -1,3 +1,8 @@
+# -- Project information
+
+project = 'Demo Launcher'
+author = "Nico Berndt, Vadim Borejko, Ethan Fuchs, Guido Grün,\nLea Hergert, Lisa Kutowinski, Mattis Petroll, Marit Zenker"
+
 # -- General configuration
 
 extensions = [
