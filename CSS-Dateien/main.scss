@@ -110,8 +110,11 @@ body{
     text-align: center;
     border-color: #03b670 !important; 
     border-width: 2px;
-    background-color: #2b3035 
+    background-color: #2b3035;
 }
 .starten:focus{
     background-color: #03b670;
+}
+.container-fluid{
+    background-color: #2b3035 !important;
 }

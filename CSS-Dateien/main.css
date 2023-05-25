@@ -8,7 +8,7 @@ body {
 /*NAVIGATION*/
 
 .container-fluid {
-  background-color: hsl(210, 10%, 25%)  !important;
+  background-color: #2b3035  !important;
 }
 
 .nav-link {
@@ -37,8 +37,8 @@ body {
 }
 
 .selection_image {
-  width: 70px;
-  height: 70px;
+  width: 15vw;
+  height: 15vw;
 }
 
 .plus_image {
@@ -78,11 +78,12 @@ body {
 /*textboxen*/
 
 .textbox_big {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
+  position: fixed;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 15vh;
   margin-bottom: 10%;
-  width: 80%;
   padding: 15px;
   height: 300px;
   border: solid 3px #03b670;
@@ -92,37 +93,72 @@ body {
   overflow: scroll;
   height: 270px;
 }
+.textbox_big_main{
+  position: fixed;
+  margin-top: 15vh;
+}
 
 .textbox_big_szenario {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  width: 80%;
+  position: fixed;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 30vh;
+  width: 80vw;
   padding: 15px;
-  height: 260px;
+  height: 30vh;
   border: solid 3px #03b670;
   border-radius: 15px;
 }
-.overflow_big_szenario {
-  overflow: scroll;
-  height: 230px;
+
+.textbox_big_szenario_verwalten {
+  position: fixed;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 40vh;
+  width: 80vw;
+  padding: 15px;
+  height: 30vh;
+  border: solid 3px #03b670;
+  border-radius: 15px;
 }
 
-.textbox_middle {
+.overflow_big_szenario {
+  overflow: scroll;
+  height: 25vh;
+}
+
+.box_middle {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
-  width: 80%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  width: 80vw;
   padding: 15px;
   height: 100px;
   border: solid 3px #03b670;
   border-radius: 15px;
 }
+
+.textbox_middle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  width: 80vw;
+  padding: 15px;
+  height: 15vh;
+  border: solid 3px #03b670;
+  border-radius: 15px;
+}
+
+.textbox_middle_main{
+  position: fixed;
+  width: 100vw;
+  margin-top: 5vh;
+}
 .overflow_middle {
   display: flex;
   overflow: scroll;
-  height: 70px;
+  height: 10vh;
 }
 
 .textbox_small {
@@ -169,10 +205,19 @@ body {
   align-items: center;
 }
 
+.button_middle_main1{
+  margin-top: 61vh;
+}
+.button_middle_main2{
+  margin-top: 70vh;
+}
+.button_middle_main3{
+  margin-top: 79vh;
+}
+
 .button_small {
-  width: 100px;
+  width: 25vw;
   height: 50px;
-  margin: 6px;
   border-radius: 15px;
   text-align: center;
   background-color: #03b670 !important;
@@ -196,18 +241,23 @@ body {
 }
 
 .three_buttons {
-  width: 83%;
+  position: fixed;
+  margin-top: 80vh;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.three_buttons_spacing{
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 
 .plus_phase {
+  position: fixed;
   display: flex;
-  width: 83%;
-  margin-left: auto;
+  margin-left: 10vw;
   margin-right: auto;
-  margin-bottom: 5%;
+  margin-top: 71vh;
 }
 
 /*dropdown on start page*/
@@ -220,6 +270,10 @@ body {
 }
 
 .szenario {
+  z-index: 1;
+  margin-top: 7vh;
+  width: 100vw;
+  position: fixed;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -238,6 +292,12 @@ body {
   background-color: #03b670 !important;
 }
 
+.index_edit_button_div {
+  position: fixed;
+  width: 100vw;
+  margin-top: 65vh;
+}
+
 .start_end_button {
   padding: 0px;
   margin-top: 10px;
@@ -245,13 +305,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 80%;
+  width: 80% !important;
   height: 80px;
   border-radius: 15px;
   text-align: center;
   border-color: #03b670 !important;
   border-width: 2px;
   background-color: #2b3035;
+  position: fixed;
+  width: 100vw;
+  margin-top: 75vh;
 }
 
 .start_end_button:focus {
@@ -275,15 +338,35 @@ body {
    top:10px;
  }
 
- .description_small {
+.description_small {
   height: 120px;
 }
 
+.steuerung{
+  position: fixed;
+  margin-top: 65vh;
+}
+
 .headline {
-  width: 80%;
+  width: 100vw;
+  position: fixed;
   margin-bottom: 15px;
-  margin-left: auto;
+  margin-left: 10vw;
   margin-right: auto;
+}
+
+.headline_szenario_h3 {
+  width: 100vw;
+  position: fixed;
+  margin-top: 23vh;
+  text-align: center;
+}
+
+.headline_szenario_h4 {
+  width: 100vw;
+  position: fixed;
+  margin-top: 35vh;
+  text-align: center;
 }
 
 .text_phase {
@@ -297,7 +380,8 @@ body {
 
 .list {
   width: 100%;
-  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border-radius: 15px;
   text-align: center;
   background-color: #2b3035 !important;
@@ -322,6 +406,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: fixed;
+  width: 100vw;
 }
 
 .right {
