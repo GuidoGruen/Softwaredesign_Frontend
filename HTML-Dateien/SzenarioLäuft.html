@@ -34,7 +34,7 @@
     </div>
     <div class="textbox_middle_main">
       <div class="textbox_middle">
-        <div class="overflow_middle">
+        <div class="overflow_middle_running">
           <p>
             HEDONIST ROOTS
             Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though
@@ -43,7 +43,7 @@
         </div>
       </div>
     </div>
-    <div id="carouselExample" class="carousel slide carousel-fade">
+    <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="headline_szenario_h3">
@@ -60,20 +60,24 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th><button class="btn btn-secondary button_very_small" data-bs-theme="dark">Gerät 1</button></th>
-                    <td>Material 1</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        1</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 1</td>
                   </tr>
                   <tr>
-                    <th>Gerät 2</th>
-                    <td>Material 2</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        2</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 2</td>
                   </tr>
                   <tr>
-                    <th>Gerät 3</th>
-                    <td>Material 3</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        3</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 3</td>
                   </tr>
                   <tr>
-                    <th>Gerät 4</th>
-                    <td>Material 4</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        4</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 4</td>
                   </tr>
                 </tbody>
               </table>
@@ -95,33 +99,70 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <th><button class="btn btn-secondary button_very_small" data-bs-theme="dark">Gerät 5</button></th>
-                    <td>Material 5</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        5</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 5</td>
                   </tr>
                   <tr>
-                    <th>Gerät 6</th>
-                    <td>Material 6</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        6</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 6</td>
                   </tr>
                   <tr>
-                    <th>Gerät 7</th>
-                    <td>Material 7</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        7</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 7</td>
                   </tr>
                   <tr>
-                    <th>Gerät 8</th>
-                    <td>Material 8</td>
+                    <th><button class="btn btn-secondary button_very_small_outline" data-bs-theme="dark">Gerät
+                        8</button></th>
+                    <td data-bs-toggle="modal" data-bs-target="#RunningPopUp">Material 8</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
-        <button class="carousel-control-next fixed" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button class="carousel-control-prev fixed" type="button" data-bs-target="#carouselExample"
+          data-bs-slide="next">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next fixed" type="button" data-bs-target="#carouselExample"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="modal fade" id="RunningPopUp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-bs-theme="dark">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Material auswählen</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="textbox_big_popup">
+                <div class="overflow_big">
+                  <div>
+                    <button class="btn btn-secondary list" data-bs-dismiss="modal">Material 1</button>
+                    <button class="btn btn-secondary list" data-bs-dismiss="modal">Material 2</button>
+                    <button class="btn btn-secondary list" data-bs-dismiss="modal">Material 3</button>
+                    <button class="btn btn-secondary list" data-bs-dismiss="modal">Material 4</button>
+                    <button class="btn btn-secondary list" data-bs-dismiss="modal">Material 5</button>
+                    <button class="btn btn-secondary list" data-bs-dismiss="modal">Material 6</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="steuerung">
-        <p class="centered">Steuerung einfügen!</p>
+        <button class="btn"><img src="../images/iconback.png" alt=""></button>
+        <button class="btn"><img src="../images/iconplay.png" alt=""></button>
+        <button class="btn"><img src="../images/iconforward.png" alt=""></button>
       </div>
       <div class="centered">
         <button onclick="window.location.href='Index.html';" class="btn btn-secondary start_end_button" type="button"
