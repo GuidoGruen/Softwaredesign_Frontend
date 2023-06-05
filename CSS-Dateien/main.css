@@ -316,6 +316,20 @@ body {
 .button_very_small_outline:focus {
   background-color: #03b670 !important;
 }
+.button_very_small_grey {
+  width: 100px;
+  height: 40px;
+  padding: 0% !important;
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #2b3035 !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .three_buttons {
   position: fixed;
   margin-top: 80vh;
