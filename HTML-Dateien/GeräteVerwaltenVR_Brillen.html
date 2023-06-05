@@ -6,7 +6,7 @@
     <meta name="description" content="Geräte verwalten" />
     <meta name="author" content="Mattis Petroll, Guido Grün" />
     <meta name="copyright" content="Mattis Petroll, Guido Grün" />
-    <title>Geräte verwalten Start</title>
+    <title>Geräte verwalten</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS-Dateien/main.css" />
@@ -32,7 +32,7 @@
                     <a class="nav-link" href="./SzenarienVerwalten.html">Szenarien verwalten</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Geräte verwalten</a>
+                    <a class="nav-link active" aria-current="page" href="./GeräteVerwaltenStart.html">Geräte verwalten</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./DemomaterialVerwaltenStart.html">Demomaterial verwalten</a>
@@ -40,32 +40,34 @@
                 </ul>
               </div>
             </div>
-        </nav>
+          </nav>
     </header>
     <main>
       <div class="headline">
-        <h1>Gerätekategorie</h1>
+        <h1>VR Brillen</h1>
       </div>
-      <div class="textbox_middle_main">
-      <div class="box_middle">
-        <div onclick="window.location.href='GeräteVerwaltenBildschirme.html';" class="overflow_middle">
-          <img class="selection_image" src="../images/Bildschirm.png"></img>
-          <p class="selection_text">Bildschirme</p>
+      <div class="textbox_big">
+          <div class="overflow_big">
+              <div>
+                  <button class="btn btn-secondary list">Brille 1</button>
+                  <button class="btn btn-secondary list">Brille 2</button>
+                  <button class="btn btn-secondary list">Brille 3</button>
+                  <button class="btn btn-secondary list">Brille 4</button>
+                  <button class="btn btn-secondary list">Brille 5</button>
+                  <button class="btn btn-secondary list">Brille 6</button>
+              </div>
+          </div>
         </div>
-      </div>
-      <div class="box_middle">
-        <div onclick="window.location.href='GeräteVerwaltenVR_Brillen.html';" class="overflow_middle">
-          <img class="selection_image" src="../images/VR-Brille.png"></img>
-          <p class="selection_text">VR-Brillen</p>
+        <div onclick="window.location.href='GerätVR.html';" class="centered button_middle_main1">
+          <a class="btn btn-secondary button_middle" href="#" data-bs-theme="dark">
+              Gerät bearbeiten
+          </a>
         </div>
-      </div>
-      <div class="box_middle">
-        <div onclick="window.location.href='GeräteVerwaltenLampen.html';" class="overflow_middle">
-          <img class="selection_image" src="../images/Lampe.png"></img>
-          <p class="selection_text">Lampen</p>
+        <div onclick="window.location.href='GerätVRNeu.html';" class="centered button_middle_main2">
+          <a class="btn btn-secondary button_middle" href="#" data-bs-theme="dark">
+              Gerät hinzufügen
+          </a>
         </div>
-      </div>
-      </div>
     </main>
     <footer>
 
