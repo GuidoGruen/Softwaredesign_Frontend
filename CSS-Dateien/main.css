@@ -519,4 +519,12 @@ body {
   flex-wrap: wrap;
   justify-content: right;
 }
+
+.carousel-control-prev{
+  margin-left: -3vw;
+}
+
+.carousel-control-next{
+  margin-right: -3vw;
+}
 /*# sourceMappingURL=main.css.map */
